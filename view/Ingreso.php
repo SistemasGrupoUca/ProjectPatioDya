@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="EstiloIngreso.css">
+    <link rel="stylesheet" href="css/EstiloIngreso.css">
     <title>Ingreso</title>
 </head>
 <body>
@@ -22,11 +22,14 @@
         <button onclick="NewUser()" class="btn"> Nuevo Usuario</button>
         </div>
         <div class="Button-container">
-            <button class="btn1" >Usuario Antiguo</button>
+            <button onclick="Antiguo()" class="btn1" >Usuario Antiguo</button>
         </div>
         <script>
             function NewUser(){
-                location.href ="NewUser.php"
+                location.href ="IngresoClienteVehiculo.php"
+            }
+            function Antiguo(){
+                location.href ="Orden.php"
             }
         </script>
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New User</title>
-    <link rel="stylesheet" href="EstiloIngresoClienteVehiculo.css">
+    <link rel="stylesheet" href="css/EstlioIngresoClienteVehiculo.css">
 </head>
 <body>
   <header>
@@ -42,14 +42,22 @@
       </datalist>
     <br> 
     <div class="buttons">    
-      <button class="btn"> Crear Usuario</button>
+      <button onclick="abrirOrden()" class="btn"> Crear Usuario</button>
     </div>
     <div class="Button-container">
-      <button class="btn1"> Cancelar</button>
+      <button onclick="cancelarRegistro()" class="btn1"> Cancelar</button>
     </div>
     <br>
     <br>
     <br>
   </section>
+  <script>
+    function abrirOrden(){
+      location.href = "Orden.php";
+    }
+    function cancelarRegistro(){
+      location.href="Ingreso.php";
+    }
+  </script>
 </body>
 </html>

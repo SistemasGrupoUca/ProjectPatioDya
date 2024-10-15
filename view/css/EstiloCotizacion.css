@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: white;
+}
+
+header{
+    background-color: #0b2b55;
+    width: auto;
+    height: 50%;
+    padding: 50 px 0;
+    height: 60px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+    position: static;   
+}
+
+.h21{
+    position: absolute ;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    top: 25px;
+    left: 195px;
+}
+.user-detail{
+    position: absolute;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    top: 25px;
+    right: 195px;
+}
+img
+{
+    position: absolute;
+    top: 7px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+}
+.campo, .campoConsulta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+}
+.informacionClienteVehiculo{
+    display: flex;
+    justify-content: space-between;
+}
+.cliente, .vehiculo{
+    width: 50%;
+    margin: 10px;
+}
+.listaProductosServicios{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.invoice-container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el resumen */
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.btn {
+    height: 60px;
+    padding: 10px 60px;
+    background-color: #0b2b55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn {
+    background-color: #157712;
+  }
+  .btn:active {
+    background-color: #000000;
+  }
+  .btn1 {
+    height: 60px;
+    padding: 10px 60px;
+    background-color: #8f0a0a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn1 {
+    background-color: #8f0a0a;
+  }
+  .btn1:active {
+    background-color: #000000;
+  }
+  .buttons{
+    position: absolute;
+    left: 35%;
+  }
+  .Button-container{
+    position: absolute;
+    right: 35%;
+  }
+
+  .datetime{
+    margin: 10px;
+  }
+.campoConsulta{
+    border: solid;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.contenidoConsulta{
+    min-height: 10%;
+}
+  
